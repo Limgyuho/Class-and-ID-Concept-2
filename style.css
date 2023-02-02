@@ -1,0 +1,24 @@
+body {
+    font-size: 4rem;
+}
+/*태그가 a인 일리먼트 선택법*/
+a{
+    
+}
+/*클래스가 a인 엘리먼트 선택*/
+.a{
+    color: red;
+}
+/*아이디가 a인 엘리먼트 선택*/
+#a{
+    color: blue;
+}
+
+/*class가 a와 b를 동시에 가지고 있는 엥리먼트*/
+.a.b{
+    color: gold;
+}
+/*태그가 section이고 class가 a b 를 동시에 가지고 있는 엘리먼트 선택*/
+section.a.b{
+    color:green;
+}
